@@ -21,7 +21,7 @@ const App = () => {
   const deleteTodo = (e) => {
     let newTodos = todos.filter((todo, index) => index !== e);
     setTodos(newTodos);
-  }
+  };
   return (
     <div className="h-screen w-screen flex flex-col justify-start items-center bg-gray-900">
       <h1 className="text-3xl font-semibold text-white mt-8">TODO App</h1>
@@ -52,12 +52,15 @@ const App = () => {
             ))
           ) : (
             <div className="text-lg bg-zinc-800 rounded-md flex justify-between gap-4 mt-4 p-2 text-white">
-              "There are no todos
+              There are no todos
             </div>
           )}
         </div>
         <div>
-          <button className="w-full bg-red-400 p-2 rounded-xl font-semibold font hover:bg-red-800 hover:text-white hover:text-2xl hover:shadow-xl focus:ring-4 focus:ring-blue-300 mt-4" onClick = {() => setTodos([])}>
+          <button
+            className="w-full bg-red-400 p-2 rounded-xl font-semibold font hover:bg-red-800 hover:text-white hover:text-2xl hover:shadow-xl focus:ring-4 focus:ring-blue-300 mt-4"
+            onClick={() => setTodos([])}
+          >
             Delete All
           </button>
         </div>
