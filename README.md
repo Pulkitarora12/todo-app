@@ -1,12 +1,19 @@
-# React + Vite
+📌 Todo App
+A simple and responsive Todo App built using React and Tailwind CSS. This project helps in understanding React state management and Tailwind styling while implementing a basic task management system.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Add new todos
+✅ Delete todos
+✅ Prevent adding empty todos
+✅ Stylish UI with Tailwind CSS
 
-Currently, two official plugins are available:
+🛠 Tech Stack
+Frontend: React, Tailwind CSS
+State Management: useState
+Hooks Used: useState, useEffect
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📚 Learning Outcomes
+Practiced React Hooks (useState, useEffect)
+Styled components using Tailwind CSS
+Handled user input
+Implemented event handling in React
